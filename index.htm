@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" alt="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">PortFolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                 <i class="fas fa-times" onclick="closemenu()"></i>    
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>KomalBabu</span><br> from India</h1>
+        </div>
+    </div>
+        
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpg" alt="" height="500px" width="400px">
+                </div>
+                <div class="about-col-2">
+           <h1 class="sub-title">About Me</h1>
+           <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis tempora sit accusamus reiciendis quasi odio dolorum aspernatur itaque eligendi. Qui ad fugiat nesciunt enim eaque. Necessitatibus mollitia culpa porro dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure beatae cupiditate, fugiat consectetur quas veniam eum architecto saepe quia asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum harum aliquid reiciendis quidem facere dolorum voluptates nulla dolore? Maxime temporibus quis praesentium optio perferendis beatae quia molestiae nobis laborum ipsa.
+
+           </p>
+           <div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+<p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+<p class="tab-links" onclick="opentab('education', event)">Education</p>
+
+           </div>
+           <div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Frontend Development</span><br>Building Websites</li>
+        <li><span>Java Development</span><br>Building Projects</li>
+    </ul>
+</div>
+
+            <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2026-Current</span><br>Web-Development traning at Frontlines-Edutech.></li>
+                <li><span>2024</span><br>Aws-Virtual-InternShip in Aicte India.</li>
+
+            </ul>
+           </div>
+            <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2022-26 current</span><br>Pursuing B-tech in Hyderabad</li>
+                <li><span>2020-22</span><br>Intermediate in Hyderabad</li>
+                <li><span>2020</span><br>High school  in Hyderabad.</li>
+
+
+            </ul>
+           </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--       Services    -->
+           <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        
+                        <h2>Web Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut deleniti sed amet temporibus autem quis officia sequi, optio itaque nulla.</p>
+                  <a href="#">Learn more</a>
+                    </div>
+
+                     <div>
+                        <h2>App Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut deleniti sed amet temporibus autem quis officia sequi, optio itaque nulla.</p>
+                  <a href="#">Learn more</a>
+                    </div>
+                     <div>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut deleniti sed amet temporibus autem quis officia sequi, optio itaque nulla.</p>
+                  <a href="#">Learn more</a>
+                    </div>
+                    
+                </div>
+            </div>
+           </div>
+<!-- Portfolio -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work_1.webp" alt="" height="470px">
+                <div class="layer">
+                    <h3>Food Website</h3>
+                    <p>The website connects you to best food around the world.Search in the browser.</p>
+               <a href="https://bychloe7858.web.app"><i class="fas fa-external-link-alt"></i></a>
+               
+                </div>      
+            </div>
+             <div class="work">
+                <img src="work_2.png" alt="" height="470px">
+                 <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>The website connects you to explore my work in creating Professional websites</p>
+               <a href="https://silver-frangipane-a48831.netlify.app/#"><i class="fas fa-external-link-alt"></i></a>
+
+                </div>
+            </div>
+             <div class="work">
+                <img src="work-3.png" alt="">
+                 <div class="layer">
+                    <h3>Adventure Travels Website</h3>
+                    <p>The app allows you to explore top destinations around the world</p>
+               <a href="https://adventure-travels7858.web.app"><i class="fas fa-external-link-alt"></i></a>
+               
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-- Contact -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fas fa-paper-plane"></i>komalbabuganapaka@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7981985778</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ganapaka-komal-babu-b72783306/"><i class="fab fa-linkedin"></i></a>
+
+                </div>
+                <a href="Komal_Ganapaka_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+                        <div class="contact-right">
+                       <form name="submit-to-google-sheet">
+                        <input type="text" name="Name"  placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+                    </form>     
+                    <span id="msg"></span>
+                        </div>
+        </div>
+    </div>
+    <div class="copyright">
+            <p>Copyright &copy;KomalBabu &reg;&trade;</p>
+        </div>
+  </div>
+    <script>
+ var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabName, event) {
+    for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabName).classList.add("active-tab");
+}
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+         function openmenu(){
+            sidemenu.style.right = "0";
+         }
+           function closemenu(){
+            sidemenu.style.right = "-200px";
+         }
+
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxzb-IoybBWvjpUcGRrL7aYRJiR-8RTraMlqVRNhGi6ySJOQa3Efh-hQQ9om7VxhdzTlA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML =""
+        },5000)
+        form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+  .then(response => {
+  document.getElementById("msg").innerHTML = "Message sent successfully!";
+  form.reset();
+})
+
+</script>
+</body>
+</html>
