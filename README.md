@@ -27,7 +27,10 @@ This is my personal **portfolio website** built with **HTML, CSS, and JavaScript
 5. **Contact** – Email, phone, social links, and a form.  
 
 ## 📸 Screenshots  
-(Add screenshots of your portfolio website here – homepage, about section, projects, etc.)  
+git add screenshots/*
+git commit -m "Added portfolio screenshots"
+git push origin main
+
 
 ## 📑 Resume  
 You can download my resume directly from the website:  
