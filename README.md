@@ -26,10 +26,20 @@ This is my personal **portfolio website** built with **HTML, CSS, and JavaScript
    - To-Do List App  
 5. **Contact** – Email, phone, social links, and a form.  
 
+
 ## 📸 Screenshots  
-git add screenshots/
-git commit -m "Added portfolio screenshots"
-git push origin main
+
+### 🏠 Home Page  
+![Home Page](home.png)
+
+### 👤 About Section  
+![About Section](about.jpg)
+
+### 💼 My Work / Projects Section  
+![My Work](mywork.jpg)
+
+### 📞 Contact Section  
+![Contact Section](contact.jpg)
 
 
 ## 📑 Resume  
