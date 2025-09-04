@@ -27,7 +27,7 @@ This is my personal **portfolio website** built with **HTML, CSS, and JavaScript
 5. **Contact** – Email, phone, social links, and a form.  
 
 ## 📸 Screenshots  
-git add screenshots/*
+git add screenshots/
 git commit -m "Added portfolio screenshots"
 git push origin main
 
